@@ -30,10 +30,15 @@ aside {
     width: 20em;
     text-align: center;
     position: relative;
+    margin: 20px;
+    border: 2px solid #333;
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: #222;
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -73,7 +78,7 @@ main {
 aside h2 {
     position: relative;
     top: 80px;
-    left: 10px;
+    left: 0px;
 }
 
 * {
