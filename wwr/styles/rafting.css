@@ -125,6 +125,7 @@ body {
 
 .hero-title-bar {
     background: var(--card-bg);
+    color: #ffffff;
 }
 
 .hero-title-bar h1 {
