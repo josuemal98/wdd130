@@ -119,8 +119,37 @@ footer {
     --text-on-dark: #ffffff;
     --text-default: #000000;
     --card-bg: rgba(0, 46, 98, 0.85);
+
 }
 
 .hero img article {
     float: right;
+}
+
+body {
+    color: var(--text-default);
+}
+
+.hero-title-bar {
+    background: var(--card-bg);
+}
+
+.hero-title-bar h1 {
+    color: var(--text-on-dark);
+}
+
+.hero-text-box {
+    background: var(--card-bg);
+    color: var(--text-on-dark);
+}
+
+.content-section h2,
+.section__title {
+    background: var(--primary-color);
+    color: var(--text-on-dark);
+}
+
+.socialmedia a,
+.link--accent {
+    color: var(--accent-color);
 }
