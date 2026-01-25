@@ -164,3 +164,8 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.hero-title-bar,
+.hero-title-bar * {
+    color: var(--text-on-dark) !important;
+}
