@@ -128,10 +128,6 @@ body {
     color: #121111;
 }
 
-.hero-title-bar h1 {
-    css color: var(--text-on-dark);
-}
-
 .hero-text-box {
     background: var(--card-bg);
     color: var(--text-on-dark);
