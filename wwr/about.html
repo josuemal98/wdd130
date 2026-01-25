@@ -13,7 +13,6 @@
 
 <body>
 
-    <!-- HEADER -->
     <header class="site-header">
         <img class="header-logo" src="images/cangrejal-tours-logo.jpg" alt="Cangrejal Tours logo">
 
@@ -27,71 +26,81 @@
         </nav>
     </header>
 
-    <!-- HERO -->
+
     <div class="hero">
         <img class="hero__bg" src="images/cangrejal-hero-banner.jpg"
           alt="Rafting group on a fast-moving river with green forest behind">
 
-        <!-- Barra azul superior con el título -->
         <div class="hero-title-bar">
             <h1>Cangrejal Tours! Discover Honduras, One Rapid at a Time!</h1>
         </div>
 
-        <!-- Caja de texto sobrepuesta en la parte baja de la imagen -->
         <div class="hero-text-box">
             <p>
-                Our goal is to provide you with the best experience possible. We have been providing
-                unforgettable
-                experiences for over 30 years. We are a family owned and operated business that is
-                dedicated to providing
-                you with the best experience possible. We have a team of experienced guides that are
-                dedicated to providing
-                you with the best experience possible.
+                At Cangrejal Tours, our mission is to give you real adventure on the powerful
+                Cangrejal River. We
+                want every visitor to feel the rush of the rapids, the beauty of the jungle, and the
+                excitement of
+                exploring Honduras in a fun and safe way. Our local guides work hard to keep every
+                trip full of
+                energy, teamwork, and unforgettable moments. We believe adventure should be real,
+                natural, and
+                shared with people who love the outdoors as much as we do.
             </p>
 
-            <!-- Imagen requerida dentro del bloque con float right -->
             <img class="hero__thumb" src="images/happyclient.jpg" alt="">
         </div>
     </div>
 
-    <!-- SECTION 1 -->
     <section class="content-section">
         <h2>History</h2>
         <p>
-            Rapids! started floating the river in 1995. We have been providing unforgettable
-            experiences for over 30 years.
-            We are a family owned and operated business that is dedicated to providing you with the
-            best experience possible.
-            We have a team of experienced guides that are dedicated to providing you with the best
-            experience possible.
+            Rafting on the Cangrejal River began in the 1990s and early 2000s, when
+            eco lodges and local tour companies first explored the river’s steep drops
+            and big boulders. As adventure tourism grew, they developed guided rafting
+            trips, and today the Cangrejal is known as one of the top white water
+            destinations in Central America.
+        </p>
+        <p>
+            As rafting became more established, the Cangrejal River Valley grew into a
+            small adventure hub, attracting travelers from around the world. New lodges,
+            certified guides, and improved access from La Ceiba helped the sport expand,
+            turning the river into a year‑round destination for both beginners and
+            thrill‑seekers. Today, rafting is one of the main reasons visitors come to
+            the Cangrejal, combining excitement, nature, and local hospitality in one
+            unforgettable experience.
         </p>
     </section>
 
-    <!-- SECTION 2 -->
     <section class="content-section">
-        <h2>Adventure Awaits You</h2>
+        <h2>Adventure Awaits You!</h2>
     </section>
 
-    <!-- FOOTER -->
     <footer class="site-footer" role="contentinfo">
-        <p>©<span id="year"></span> | Rapids! | Josue Maldonado</p>
+        <p>© <span id="year"></span> | Cangrejal Tours | Josue Maldonado</p>
 
-        <!-- Social: exactamente 3 links con una imagen cada uno -->
         <nav class="socialmedia" aria-label="Social media">
-            <a href="https://facebook.com" aria-label="Facebook">
-                <img src="images/facebook_logo_.svg" alt="Facebook logo">
+            <a href="https://facebook.com/yourpage" aria-label="Facebook">
+                <img src="images/facebook_logo_.svg" alt="Facebook">
             </a>
-            <a href="https://x.com" aria-label="X">
-                <img src="images/twitter-logo.svg" alt="X Twitter logo">
+            <a href="https://x.com/yourpage" aria-label="X (Twitter)">
+                <img src="images/twitter-logo.svg" alt="X">
             </a>
-            <a href="https://instagram.com" aria-label="Instagram">
-                <img src="images/instragram_logo.svg" alt="Instagram logo">
+            <a href="https://instagram.com/yourpage" aria-label="Instagram">
+                <img src="images/instragram_logo.svg" alt="Instagram">
             </a>
         </nav>
+
+        <script>
+            (function () {
+                var el = document.getElementById('year');
+                if (el) el.textContent = new Date().getFullYear();
+            }());
+        </script>
     </footer>
 
+
     <script>
-        // Año actual en el footer
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
