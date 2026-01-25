@@ -112,3 +112,11 @@ footer {
     width: 32px;
     height: 32px;
 }
+
+:root {
+    --primary-color: #002e62;
+    --accent-color: #1b4f8a;
+    --text-on-dark: #ffffff;
+    --text-default: #000000;
+    --card-bg: rgba(0, 46, 98, 0.85);
+}
