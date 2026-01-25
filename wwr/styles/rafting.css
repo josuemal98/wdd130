@@ -76,7 +76,7 @@ header {
 }
 
 .hero-text-box img {
-    width: 90px;
+    width: 100px;
     float: right;
     margin-left: 1rem;
 }
@@ -119,4 +119,8 @@ footer {
     --text-on-dark: #ffffff;
     --text-default: #000000;
     --card-bg: rgba(0, 46, 98, 0.85);
+}
+
+.hero img article {
+    float: left;
 }
