@@ -107,11 +107,11 @@ footer {
 }
 
 :root {
-    --primary-color: #002e62;
+    --primary-color: #5c9ae1;
     --accent-color: #1b4f8a;
-    --text-on-dark: #ffffff;
+    --text-on-dark: #000000;
     --text-default: #000000;
-    --card-bg: rgba(200, 211, 243, 0.85);
+    --card-bg: rgba(115, 150, 255, 0.85);
 
 }
 
