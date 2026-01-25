@@ -129,7 +129,7 @@ body {
 }
 
 .hero-title-bar h1 {
-    color: var(--text-on-dark);
+    css color: var(--text-on-dark);
 }
 
 .hero-text-box {
