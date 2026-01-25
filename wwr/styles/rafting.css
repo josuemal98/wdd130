@@ -122,7 +122,7 @@ footer {
 
 }
 
-.hero img article {
+.hero article img {
     float: right;
 }
 
@@ -152,4 +152,8 @@ body {
 .socialmedia a,
 .link--accent {
     color: var(--accent-color);
+}
+
+.hero h1 {
+    position: absolute;
 }
