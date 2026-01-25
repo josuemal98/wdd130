@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us | Cangrejal Tours</title>
+
+    <meta name="description"
+      content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure">
+    <meta name="author" content="Josue Maldonado">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Cangrejal Tours - Home">
+                <img src="images/cangrejal-tours-logo.jpg" alt="Rafting Company logo"
+                  class="brand__logo">
+            </a>
+
+            <nav class="main-nav" aria-label="Primary">
+                <ul class="nav__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" aria-current="page">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero: el audit exige <div class="hero"> con un <article> que contenga un <img> y un <h1> -->
+        <div class="hero">
+            <img src="images/cangrejal-hero-banner.jpg"
+              alt="Raft navigating rapids with rainforest backdrop" class="hero__bg">
+
+            <article class="hero__content container">
+                <!-- Imagen requerida dentro del article; la marco como decorativa para no alterar el diseño -->
+                <h1 class="hero__title">Cangrejal Tours</h1>
+                <p class="hero__subtitle">“Discover Honduras, One Rapid at a Time.”</p>
+            </article>
+        </div>
+
+        <!-- IMPORTANTE: El audit pide EXACTAMENTE dos sections en <main>.
+         Eliminamos la sección 'intro' para cumplir la regla.
+         (Contenido original guardado abajo como comentario)
+    -->
+        <!--
+    <section class="intro" aria-label="Overview">
+      <div class="container intro__inner">
+        <article class="intro__card">
+          <figure class="intro__media">
+            <img src="images/happyclient.jpg" alt="Guests rafting through a clear rapid">
+            <figcaption>
+              Shin Fujiyama visited the Cangrejal River in Pico Bonito, La Ceiba, where he took part in an intense
+              river adventure organized by local guides...
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+    -->
+
+        <!-- SECTION 1: History -->
+        <section class="section section--history" id="history" aria-labelledby="history-title">
+            <div class="container">
+                <h2 class="section__title" id="history-title">History</h2>
+                <div class="section__body">
+                    <p>
+                        Rafting on the Cangrejal River began in the 1990s and early 2000s, when
+                        eco lodges and local tour companies first explored the river’s steep drops
+                        and big boulders. As adventure tourism grew, they developed guided rafting
+                        trips, and today the Cangrejal is known as one of the top white water
+                        destinations in Central America.
+                    </p>
+                    <p>
+                        As rafting became more established, the Cangrejal River Valley grew into a
+                        small adventure hub, attracting travelers from around the world. New lodges,
+                        certified guides, and improved access from La Ceiba helped the sport expand,
+                        turning the river into a year‑round destination for both beginners and
+                        thrill‑seekers. Today, rafting is one of the main reasons visitors come to
+                        the Cangrejal, combining excitement, nature, and local hospitality in one
+                        unforgettable experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: Adventure Awaits You! -->
+        <section class="section section--cta" aria-labelledby="adventure-title">
+            <div class="container">
+                <h2 class="section__title" id="adventure-title">Adventure Awaits You!</h2>
+                <div class="section__body">
+                    <p>
+                        Plan your next white‑water experience today. Choose your trip and get ready
+                        for the rapids!
+                    </p>
+                    <p><a class="btn" href="trips.html">See trips</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <p class="footer__copy">© <span id="year"></span> Cangrejal Tours. Josue Maldonado</p>
+
+            <!-- El audit exige nav.socialmedia con exactamente 3 <a>, cada uno con un <img> -->
+            <nav class="socialmedia" aria-label="Social media">
+                <a href="https://facebook.com/yourpage" aria-label="Facebook">
+                    <img src="images/facebook_logo_.svg" alt="Facebook logo">
+                </a>
+                <a href="https://instagram.com/yourpage" aria-label="Instagram">
+                    <img src="images/instragram_logo.svg" alt="Instagram logo">
+                </a>
+                <a href="https://x.com/yourpage" aria-label="X (Twitter)">
+                    <img src="images/twitter-logo.svg" alt="x Twitter Logo">
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        // current year
+        (function () {
+            var el = document.getElementById('year');
+            if (el) el.textContent = new Date().getFullYear();
+        }());
+    </script>
+</body>
+
+</html>

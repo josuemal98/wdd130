@@ -2,153 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About Us Cangrejal Tours</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us | Cangrejal Tours</title>
     <meta name="description"
-      content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure" />
-    <meta name="author" content="Josue Daniel Maldonado Fuentes ">
+      content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure">
+    <meta name="author" content="Josue Maldonado">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="brand" href="/" aria-label="Rafting Company - Home">
-                <img src="images/cangrejal-tours-logo.jpg" alt="Rafting Company logo"
-                  class="brand__logo" />
-            </a>
 
-            <nav class="main-nav" aria-label="Primary">
-                <ul class="nav__list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- HEADER -->
+    <header class="site-header">
+        <img class="header-logo" src="images/cangrejal-tours-logo.jpg" alt="Cangrejal Tours logo">
+
+        <nav class="main-nav" aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About Us</a></li>
+                <li><a href="trips.html">Trip</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main id="main-content">
+    <!-- HERO -->
+    <div class="hero">
+        <img class="hero__bg" src="images/cangrejal-hero-banner.jpg"
+          alt="Rafting group on a fast-moving river with green forest behind">
 
-
-        <div class="hero">
-            <img src="images/cangrejal-hero-banner.jpg"
-              alt="Raft navigating rapids with rainforest backdrop" />
-            <article class="hero__content container">
-                <img src="images/happyclient.jpg" alt="Guests rafting through a clear rapid"
-                  class="hero__thumb" aria-hidden="true">
-                <h1 class="hero__title">Cangrejal Tours</h1>
-                <p>
-                    Shin Fujiyama visited the Cangrejal River in Pico Bonito, La Ceiba,
-                    where he took part in an intense river adventure organized by local
-                    guides. During the experience, he navigated strong currents and rapid
-                    sections of the river, describing how powerful the flow became and how
-                    challenging it was to move through the water. He highlighted the
-                    excitement of the rapids and emphasized the importance of going with
-                    trained professionals when exploring the Cangrejal’s fast moving waters.
-                </p>
-            </article>
+        <!-- Barra azul superior con el título -->
+        <div class="hero-title-bar">
+            <h1>Cangrejal Tours! Discover Honduras, One Rapid at a Time!</h1>
         </div>
 
+        <!-- Caja de texto sobrepuesta en la parte baja de la imagen -->
+        <div class="hero-text-box">
+            <p>
+                Our goal is to provide you with the best experience possible. We have been providing
+                unforgettable
+                experiences for over 30 years. We are a family owned and operated business that is
+                dedicated to providing
+                you with the best experience possible. We have a team of experienced guides that are
+                dedicated to providing
+                you with the best experience possible.
+            </p>
 
-        <!-- <div class="container intro__inner">
-            <article class="intro__card">
-                <figure class="intro__media">
-                    <img src="images/happyclient.jpg" alt="Guests rafting through a clear rapid" />
-                    <p>
-                        Shin Fujiyama visited the Cangrejal River in Pico Bonito, La Ceiba,
-                        where he took part in an intense river adventure organized by local
-                        guides. During the experience, he navigated strong currents and rapid
-                        sections of the river, describing how powerful the flow became and how
-                        challenging it was to move through the water. He highlighted the
-                        excitement of the rapids and emphasized the importance of going with
-                        trained professionals when exploring the Cangrejal’s fast moving waters.
-                    </p>
-                </figure>
-            </article>
-        </div> -->
+            <!-- Imagen requerida dentro del bloque con float right -->
+            <img class="hero__thumb" src="images/happyclient.jpg" alt="">
+        </div>
+    </div>
 
+    <!-- SECTION 1 -->
+    <section class="content-section">
+        <h2>History</h2>
+        <p>
+            Rapids! started floating the river in 1995. We have been providing unforgettable
+            experiences for over 30 years.
+            We are a family owned and operated business that is dedicated to providing you with the
+            best experience possible.
+            We have a team of experienced guides that are dedicated to providing you with the best
+            experience possible.
+        </p>
+    </section>
 
-        <section class="section section--history" id="history" aria-labelledby="history-title">
-            <div class="container">
-                <h2 class="section__title" id="history-title">History</h2>
-                <div class="section__body">
-                    <p>
-                        Rafting on the Cangrejal River began in the 1990s and early 2000s, when
-                        eco lodges and local tour companies first explored the river’s steep drops
-                        and big boulders. As adventure tourism grew, they developed guided rafting
-                        trips, and today the Cangrejal is known as one of the top white water
-                        destinations in Central
-                        America.
-                    <p>
-                        As rafting became more established, the Cangrejal River Valley grew into a
-                        small adventure hub, attracting travelers from around the world. New lodges,
-                        certified guides, and improved access from La Ceiba helped the sport expand,
-                        turning the river into a year‑round destination for both beginners and
-                        thrill‑seekers. Today, rafting is one of the main reasons visitors come to
-                        the Cangrejal, combining excitement, nature, and local hospitality in one
-                        unforgettable experience
-                    </p>
-                </div>
-            </div>
-        </section>
+    <!-- SECTION 2 -->
+    <section class="content-section">
+        <h2>Adventure Awaits You</h2>
+    </section>
 
-        <section class="section section--cta" aria-labelledby="adventure-title">
-            <div class="container">
-                <h2 class="section__title" id="adventure-title">Adventure Awaits You</h2>
-                <div class="section__body">
-
-                    <p>
-                        Plan your next white‑water experience today. Choose your trip and get ready
-                        for the rapids!
-                    </p>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-
+    <!-- FOOTER -->
     <footer class="site-footer" role="contentinfo">
-        <div class="container footer-inner">
-            <p class="footer__copy">© 2026 Cangrejal Tours. Josue Maldonado</p>
+        <p>©<span id="year"></span> | Rapids! | Josue Maldonado</p>
 
-            <nav class="footer-nav" aria-label="Footer">
-                <ul class="footer-nav__list">
-                    <li><a href="/privacy">Privacy</a></li>
-                    <li><a href="/terms">Terms</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </nav>
-
-            <ul class="socialmedia">
-                <li>
-                    <a href="https://facebook.com/yourpage" aria-label="Facebook">
-                        <img src="images/facebook_logo_.svg" alt="Facebook icon"
-                          aria-hidden="true" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/yourpage" aria-label="Instagram">
-                        <img src="images/instragram_logo.svg" alt="Instagram icon"
-                          aria-hidden="true" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com/yourpage" aria-label="X (Twitter)">
-                        <img src="images/twitter-logo.svg" alt="X (Twitter) icon"
-                          aria-hidden="true" />
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <!-- Social: exactamente 3 links con una imagen cada uno -->
+        <nav class="socialmedia" aria-label="Social media">
+            <a href="https://facebook.com" aria-label="Facebook">
+                <img src="images/facebook_logo_.svg" alt="Facebook logo">
+            </a>
+            <a href="https://x.com" aria-label="X">
+                <img src="images/twitter-logo.svg" alt="X Twitter logo">
+            </a>
+            <a href="https://instagram.com" aria-label="Instagram">
+                <img src="images/instragram_logo.svg" alt="Instagram logo">
+            </a>
+        </nav>
     </footer>
 
-
     <script>
+        // Año actual en el footer
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>

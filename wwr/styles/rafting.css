@@ -1,24 +1,4 @@
-header img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-}
-
-:root {
-    --primary-color: #98d1f9;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A43312;
-    --accent2-color: #381D2A;
-    --light-color: #FFFFFF;
-    --dark-color: #000000;
-}
-
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -26,67 +6,109 @@ header {
 }
 
 body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
-header,
-main,
-footer {
-    width: 840px;
-    margin: 0 auto;
+/* HEADER */
+header {
+    padding: 1rem;
 }
 
-h1,
-h2 {
-    font-family: var(--heading--font);
-    color: var(--primary-color);
+.header-logo {
+    width: 140px;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+.main-nav ul {
+    list-style: none;
+    padding-top: 1rem;
 }
 
-.socialmedia a {
+.main-nav li {
+    margin-bottom: 0.4rem;
+}
+
+.main-nav a {
+    color: #000;
     text-decoration: none;
-    width: 50px;
-    height: auto;
 }
 
+/* HERO */
 .hero {
     position: relative;
+    width: 100%;
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
 }
 
-h1 {
+/* TOP BLUE BAR */
+.hero-title-bar {
     position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 46, 98, 0.85);
+    padding: 1rem 0;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
 }
 
-article {
+.hero-title-bar h1 {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/* TEXT BOX OVER IMAGE */
+.hero-text-box {
     position: absolute;
-    top: 90%;
-    padding: 0;
-    text-align: left;
-    box-sizing: border-box;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 90%;
+    background: rgba(0, 46, 98, 0.85);
+    color: white;
+    padding: 1rem;
 }
 
-article img {
+.hero-text-box img {
+    width: 90px;
     float: right;
-    width: 125px;
+    margin-left: 1rem;
+}
+
+/* SECTIONS */
+section {
+    margin: 2rem auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+section h2 {
+    background: #002e62;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: 32px;
 }
