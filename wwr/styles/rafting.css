@@ -44,10 +44,10 @@ header {
 
 .hero-title-bar {
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     right: 0;
-    background: rgba(0, 46, 98, 0.85);
+    background: rgba(21, 100, 190, 0.85);
     padding: 1rem 0;
     text-align: center;
 }
@@ -165,7 +165,8 @@ body {
     transform: translateX(-50%);
 }
 
-.hero-title-bar,
-.hero-title-bar * {
-    color: var(--text-on-dark) !important;
+.hero-title-bar h1,
+.hero-title-bar p,
+.hero-title-bar {
+    color: #ffffff !important;
 }
