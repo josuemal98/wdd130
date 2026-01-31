@@ -167,3 +167,58 @@ body {
 .hero-title-bar {
     color: #ffffff !important;
 }
+
+.content-section:nth-of-type(2) {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.content-section:nth-of-type(2) h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: .3rem;
+}
+
+.awaits-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.awaits-grid figure {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: .5rem;
+  text-align: center;
+}
+
+.awaits-grid figure img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.awaits-grid figure figcaption {
+  margin-top: .4rem;
+  font-size: .9rem;
+  color: #555;
+}
+
+@media (max-width: 900px) {
+  .awaits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .awaits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
