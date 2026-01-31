@@ -7,8 +7,8 @@
 :root {
   --primary-color: #5c9ae1;
   --accent-color: #1b4f8a;
-  --text-on-dark: #111111;
-  --text-default: #000000;
+  --text-on-dark: #0e0606;
+  --text-default: #0f0202;
   --card-bg: rgba(115, 150, 255, 0.85);
 }
 
@@ -98,7 +98,7 @@ section {
 
 section h2 {
   background: #002e62;
-  color: rgb(10, 9, 9);
+  color: rgb(230, 221, 221);
   padding: 1rem;
   margin-bottom: 1rem;
 }
