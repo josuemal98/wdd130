@@ -128,7 +128,7 @@ footer {
 /* Posición original del <article> (se mantiene el look) */
 .hero article {
   position: absolute;
-  top: 100%;
+  top: 90%;
   left: 0;
   right: 0;
 }
@@ -226,3 +226,6 @@ img {
 .awaits-grid figure:focus {
   outline: 2px solid var(--primary-color);
 }
+
+
+
