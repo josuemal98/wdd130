@@ -125,7 +125,6 @@ footer {
   color: var(--accent-color);
 }
 
-/* Posición original del <article> (se mantiene el look) */
 .hero article {
   position: absolute;
   top: 90%;
@@ -176,7 +175,7 @@ footer {
   color: #555;
 }
 
-/* A11y y estabilidad sin cambiar el look */
+/* estabilidad sin cambiar el look */
 .main-nav a:focus-visible,
 .socialmedia a:focus-visible,
 .awaits-grid figure:focus-within,
@@ -228,4 +227,9 @@ img {
 }
 
 
-
+.hero .hero-title-bar h1 {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
