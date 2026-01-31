@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #5c9ae1;
+   --primary-color: #5c9ae1;
   --accent-color: #1b4f8a;
   --text-on-dark: #0e0606;
   --text-default: #0f0202;
@@ -217,4 +217,12 @@ img {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+
+
+.main-nav a:focus-visible,
+.socialmedia a:focus-visible,
+.awaits-grid figure:focus-within,
+.awaits-grid figure:focus {
+  outline: 2px solid var(--primary-color);
 }
