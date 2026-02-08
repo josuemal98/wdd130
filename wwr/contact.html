@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Us | Cangrejal Tours</title>
+    <title>About Us Cangrejal Tours</title>
     <meta name="description"
       content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure">
     <meta name="author" content="Josue D. Maldonado">
@@ -48,43 +48,43 @@
       </div>
 
       
-      <form id="contact-form" class="contact-form" action="#" method="post">
-        
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="Placeholder" required>
-
-        
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="Placeholder" required>
-
-
-        <p class="field-label">Message Purpose</p>
-        <label class="radio">
-          <input type="radio" name="purpose" value="general" checked>
-          <span>General Inquiry</span>
-        </label>
-        <label class="radio">
-          <input type="radio" name="purpose" value="reservation">
-          <span>Reservation Question</span>
-        </label>
-        <label class="radio">
-          <input type="radio" name="purpose" value="website">
-          <span>Website Suggestion</span>
-        </label>
-
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
-
     
-        <label class="checkbox">
-          <input type="checkbox" name="newsletter" value="yes">
-          <span>Please Subscribe me to the monthly newsletter</span>
-        </label>
+<form class="contact-form">
+
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" placeholder="Placeholder" required>
+
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" placeholder="Placeholder" required>
+
+  <p class="field-label">Message Purpose</p>
+
+  <div>
+    <input id="purpose-general" type="radio" name="purpose" value="general" checked>
+    <label for="purpose-general">General Inquiry</label>
+  </div>
+
+  <div>
+    <input id="purpose-reservation" type="radio" name="purpose" value="reservation">
+    <label for="purpose-reservation">Reservation Question</label>
+  </div>
+
+  <div>
+    <input id="purpose-website" type="radio" name="purpose" value="website">
+    <label for="purpose-website">Website Suggestion</label>
+  </div>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" placeholder="Type here" rows="4"></textarea>
+
+  <div>
+    <input id="newsletter" type="checkbox" name="newsletter" value="yes">
+    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+  </div>
 
 
-        <button type="submit">Get in Touch!</button>
-      </form>
+  <button type="submit">Get in Touch!</button>
+</form>
     </section>
 
     
