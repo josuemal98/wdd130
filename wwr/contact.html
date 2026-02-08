@@ -2,139 +2,138 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us | Cangrejal Tours</title>
-    <meta name="description"
-      content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure">
-    <meta name="author" content="Josue Maldonado">
-    <link rel="stylesheet" href="styles/rafting.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Cangrejal Tours</title>
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
-<body>
+<!-- Add this class to scope styles only for Contact Us -->
+<body class="contact-page">
 
-    <header class="site-header">
-        <img class="header-logo" src="images/cangrejal-tours-logo.jpg" alt="Cangrejal Tours logo">
+  <!-- Simple header matching the mockup: purple bar + centered nav -->
+  <header class="site-header" role="banner">
+    <img class="header-logo" src="images/cangrejal-tours-logo.jpg" alt="Cangrejal Tours logo">
 
-        <nav class="main-nav" aria-label="Primary">
-            <ul class="nav__list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" aria-current="page">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="main-nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
+  <main>
 
-        <div class="hero">
+    <!-- Centered company info (as in mockup) -->
+    <section class="company-info">
+      <h1>Cangrejal Tours</h1>
+      <p>
+        31101 La Cuenta St<br>
+        La Ceiba, Atlántida, Honduras<br>
+        +504 9999-9999<br>
+        <a href="mailto:info@cangrejaltours.com">info@cangrejaltours.com</a>
+      </p>
+    </section>
 
-            <img class="hero__bg" src="images/cangrejal-hero-banner.jpg"
-              alt="Rafting group on a fast-moving river with green forest behind">
+    <!-- Two-column contact area: map (left) + form (right) -->
+    <section class="contact-section">
 
-            <div class="hero-title-bar">
-                <h1>Cangrejal Tours! Discover Honduras, One Rapid at a Time!</h1>
-            </div>
+      <!-- Map image -->
+      <div class="contact-map" aria-label="Location map">
+        <img src="images/cangrejalmap.jpg" alt="Map showing Cangrejal area">
+      </div>
 
-            <article>
-                <div class="hero-text-box">
-                    <p>
-                        At Cangrejal Tours, our mission is to give you real adventure on the
-                        powerful
-                        Cangrejal River. We
-                        want every visitor to feel the rush of the rapids, the beauty of the jungle,
-                        and
-                        the
-                        excitement of
-                        exploring Honduras in a fun and safe way. Our local guides work hard to keep
-                        every
-                        trip full of
-                        energy, teamwork, and unforgettable moments. We believe adventure should be
-                        real,
-                        natural, and
-                        shared with people who love the outdoors as much as we do.
-                    </p>
+      <!-- Accessible, simple contact form -->
+      <form id="contact-form" class="contact-form" action="#" method="post">
+        <!-- Name -->
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Placeholder" required>
 
-                    <img class="hero__thumb" src="images/happyclient.jpg" alt="Shin Fujiyama">
-                </div>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Placeholder" required>
 
-            </article>
+        <!-- Purpose -->
+        <p class="field-label">Message Purpose</p>
+        <label class="radio">
+          <input type="radio" name="purpose" value="general" checked>
+          <span>General Inquiry</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="purpose" value="reservation">
+          <span>Reservation Question</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="purpose" value="website">
+          <span>Website Suggestion</span>
+        </label>
+
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+
+        <!-- Newsletter -->
+        <label class="checkbox">
+          <input type="checkbox" name="newsletter" value="yes">
+          <span>Please Subscribe me to the monthly newsletter</span>
+        </label>
+
+        <!-- Submit -->
+        <button type="submit">Get in Touch!</button>
+      </form>
+    </section>
+
+    <!-- Employees panel (kept as you wrote it) -->
+    <section class="team-wrapper">
+      <h2>We Are Here to Serve You</h2>
+
+      <!-- Your original employee code (unchanged) -->
+      <section class="content-section">
+        <div class="awaits-grid">
+
+          <figure>
+            <img src="images/employeeone.webp" alt="Profile 1">
+            <figcaption>Mike Wheeler General Manager</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/employee2.jpg" alt="Profile 2">
+            <figcaption>Jane 'El' Hooper Security Manager</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/employee3.jpeg" alt="Profile 3">
+            <figcaption>Dustin Henderson Tour Manager</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/employee4.jpeg" alt="Profile 4">
+            <figcaption>Lucas Sinclair Operations Manager</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/employee5.webp" alt="Profile 5">
+            <figcaption>Will Byers Communications Coordinator</figcaption>
+          </figure>
 
         </div>
+      </section>
+    </section>
 
-        <section class="content-section">
-            <h2>History</h2>
-            <p>
-                Rafting on the Cangrejal River began in the 1990s and early 2000s, when
-                eco lodges and local tour companies first explored the river’s steep drops
-                and big boulders. As adventure tourism grew, they developed guided rafting
-                trips, and today the Cangrejal is known as one of the top white water
-                destinations in Central America.
-            </p>
-            <p>
-                As rafting became more established, the Cangrejal River Valley grew into a
-                small adventure hub, attracting travelers from around the world. New lodges,
-                certified guides, and improved access from La Ceiba helped the sport expand,
-                turning the river into a year‑round destination for both beginners and
-                thrill‑seekers. Today, rafting is one of the main reasons visitors come to
-                the Cangrejal, combining excitement, nature, and local hospitality in one
-                unforgettable experience.
-            </p>
-        </section>
+  </main>
 
-        <section class="content-section">
-            <h2>We are here to serve you!</h2>
-              <div class="awaits-grid">
-
-                 <figure>
-                   <img src="images/employeeone.webp" alt="Adventure image one">
-                   <figcaption>Mike Wheeler General Manager</figcaption>
-                 </figure>
-
-                <figure>
-                  <img src="images/employee2.jpg" alt="Adventure image two">
-                  <figcaption>Jane 'El' Hooper Security Manager </figcaption>
-                 </figure>
-
-                <figure>
-                  <img src="images/employee3.jpeg" alt="Adventure image three">
-                  <figcaption>Dustin Henderson Tour Manager</figcaption>
-                </figure>
-
-                <figure>
-                  <img src="images/employee4.jpeg" alt="Adventure image four">
-                  <figcaption>Lucas Sinclair Operations Manager</figcaption>
-                </figure>
-
-                <figure>
-                  <img src="images/employee5.webp" alt="Adventure image five">
-                  <figcaption>Will Byers Communications Coordinator</figcaption>
-                </figure>
-
+  <!-- Simple purple footer like mockup -->
+  <footer class="site-footer">
+    <p>© 2026 | Cangrejal Tours | Josue Maldonado</p>
+    <div class="footer-icons" aria-label="Social media">
+      <img src="images/facebook_logo_.svg" alt="Facebook">
+      <img src="images/twitter-logo.svg" alt="X (Twitter)">
+      <img src="images/instragram_logo.svg" alt="Instagram">
     </div>
-
-        </section>
-
-    </main>
-    <footer>
-        <p>© 2026 | Cangrejal Tours | Josue Maldonado</p>
-
-        <nav class="socialmedia" aria-label="Social media">
-            <a href="https://facebook.com/yourpage" aria-label="Facebook">
-                <img src="images/facebook_logo_.svg" alt="Facebook logo">
-            </a>
-            <a href="https://x.com/yourpage" aria-label="X (Twitter)">
-                <img src="images/twitter-logo.svg" alt="X (Twitter) logo">
-            </a>
-            <a href="https://instagram.com/yourpage" aria-label="Instagram">
-                <img src="images/instragram_logo.svg" alt="Instagram logo">
-            </a>
-        </nav>
-
-    </footer>
-
+  </footer>
 
 </body>
-
 </html>

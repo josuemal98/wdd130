@@ -233,3 +233,120 @@ img {
   display: grid;
   place-items: center;
 }
+
+/* Contact us */
+
+
+.contact-page .site-header {
+    background: #5c9ae1;  
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #5c9ae1;
+   
+}
+
+.contact-page .nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.contact-page .nav__list a {
+    text-decoration: none;
+    background: white;
+    padding: 10px 18px;
+    border: 1px solid #5c9ae1;
+    border-radius: 4px;
+    color: black;
+}
+
+.contact-page .company-info {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.contact-page .contact-section {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+
+.contact-page .contact-map {
+    border: 1px solid #ccc;
+    background: #e3eaf2;
+    height: 300px;
+}
+
+.contact-page .contact-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-page input,
+.contact-page textarea {
+    padding: 8px;
+    border: 1px solid #b4c7d9;
+}
+
+.contact-page button {
+    padding: 10px;
+    background: #8ecaff;
+    border: 1px solid #6db4f7;
+    cursor: pointer;
+}
+
+
+
+.contact-page .team-wrapper {
+    background: #d4ecff; 
+    border: 1px solid #a8d4f5;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.contact-page .awaits-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.contact-page .awaits-grid figure {
+    border: 1px solid #b4c7d9;
+    padding: 10px;
+    background: white;
+}
+
+.contact-page .awaits-grid img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+
+.contact-page .site-footer {
+    background: #6db4f7;   
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-page .footer-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
