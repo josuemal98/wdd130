@@ -242,7 +242,15 @@ img {
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #5c9ae1;
+
    
+}
+
+.contact-page .header-logo .site-footer{
+  width: 150px;
+  size: auto;
+  align-items: right;
+
 }
 
 .contact-page .nav__list {
@@ -263,8 +271,7 @@ img {
 }
 
 .contact-page .company-info {
-    text-align: right;
-    margin: 20px 0;
+    text-align: center;
 }
 
 .contact-page .contact-section {
