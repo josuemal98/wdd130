@@ -175,7 +175,6 @@ footer {
   color: #555;
 }
 
-/* estabilidad sin cambiar el look */
 .main-nav a:focus-visible,
 .socialmedia a:focus-visible,
 .awaits-grid figure:focus-within,
@@ -191,7 +190,6 @@ img {
   display: block;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .awaits-grid {
     grid-template-columns: repeat(3, 1fr);
