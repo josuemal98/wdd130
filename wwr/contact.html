@@ -2,21 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us - Cangrejal Tours</title>
-    <meta name="description"
-      content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure">
-    <meta name="author" content="Josue Maldonado">
-    <link rel="stylesheet" href="styles/rafting.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Cangrejal Tours</title>
+  <meta name="description"
+    content="Experience the perfect blend of thrilling rapids, lush rainforest, and unforgettable adventure">
+  <meta name="author" content="Josue Maldonado">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body class="contact-page">
-
-  
   <header class="site-header">
     <img class="header-logo" src="images/cangrejal-tours-logo.jpg" alt="Cangrejal Tours logo">
-
     <nav class="main-nav" aria-label="Primary">
       <ul class="nav__list">
         <li><a href="index.html">Home</a></li>
@@ -28,121 +25,99 @@
   </header>
 
   <main>
-
-    <section class="company-info">
+    <section class="company-info section">
       <h1>Cangrejal Tours</h1>
-      <p>
+      <address>
         31101 La Cuenta St<br>
         La Ceiba, Atlántida, Honduras<br>
         +504 9999-9999<br>
         <a href="mailto:info@cangrejaltours.com">info@cangrejaltours.com</a>
-      </p>
+      </address>
     </section>
 
 
-    <section class="contact-section">
-
-      
+    <section class="contact-section section">
       <div class="contact-map">
-        <img src="images/cangrejalmap.jpg" alt="Map showing Cangrejal area">
+        <img src="images/cangrejal-map.jpg" alt="Map showing Cangrejal area">
       </div>
 
-      
-    
-<form class="contact-form">
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
 
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text" placeholder="Placeholder" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
 
-  <label for="email">Email</label>
-  <input id="email" name="email" type="email" placeholder="Placeholder" required>
+        <p class="field-label">Message Purpose</p>
+        <div>
+          <input id="purpose-general" type="radio" name="purpose" value="general" checked>
+          <label for="purpose-general">General Inquiry</label>
+        </div>
+        <div>
+          <input id="purpose-reservation" type="radio" name="purpose" value="reservation">
+          <label for="purpose-reservation">Reservation Question</label>
+        </div>
+        <div>
+          <input id="purpose-website" type="radio" name="purpose" value="website">
+          <label for="purpose-website">Website Suggestion</label>
+        </div>
 
-  <p class="field-label">Message Purpose</p>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Type here" rows="4"></textarea>
 
-  <div>
-    <input id="purpose-general" type="radio" name="purpose" value="general" checked>
-    <label for="purpose-general">General Inquiry</label>
-  </div>
+        <div>
+          <input id="newsletter" type="checkbox" name="newsletter" value="yes">
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        </div>
 
-  <div>
-    <input id="purpose-reservation" type="radio" name="purpose" value="reservation">
-    <label for="purpose-reservation">Reservation Question</label>
-  </div>
-
-  <div>
-    <input id="purpose-website" type="radio" name="purpose" value="website">
-    <label for="purpose-website">Website Suggestion</label>
-  </div>
-
-  <label for="message">Message</label>
-  <textarea id="message" name="message" placeholder="Type here" rows="4"></textarea>
-
-  <div>
-    <input id="newsletter" type="checkbox" name="newsletter" value="yes">
-    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
-  </div>
-
-
-  <button type="submit">Get in Touch!</button>
-</form>
+        <button type="submit" class="btn">Get in Touch!</button>
+      </form>
     </section>
 
-    
-    <section class="team-wrapper">
+    <section class="team-wrapper section">
       <h2>We Are Here to Serve You</h2>
 
-    
-      <!---section class="content-section"-->
-        <div class="awaits-grid">
-
-          <figure>
-            <img src="images/employeeone.webp" alt="Profile 1">
-            <figcaption>Mike Wheeler General Manager</figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/employee2.jpg" alt="Profile 2">
-            <figcaption>Jane 'El' Hooper Security Manager</figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/employee3.jpeg" alt="Profile 3">
-            <figcaption>Dustin Henderson Tour Manager</figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/employee4.jpeg" alt="Profile 4">
-            <figcaption>Lucas Sinclair Operations Manager</figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/employee5.webp" alt="Profile 5">
-            <figcaption>Will Byers Communications Coordinator</figcaption>
-          </figure>
-
-        </div>
-    <!--/section---> 
+      <div class="awaits-grid">
+        <figure>
+          <img src="images/employee-1.webp" alt="Mike Wheeler, General Manager">
+          <figcaption>Mike Wheeler · General Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee-2.jpg" alt="Jane Hooper, Security Manager">
+          <figcaption>Jane “El” Hooper · Security Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee-3.jpeg" alt="Dustin Henderson, Tour Manager">
+          <figcaption>Dustin Henderson · Tour Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee-4.jpeg" alt="Lucas Sinclair, Operations Manager">
+          <figcaption>Lucas Sinclair · Operations Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee-5.webp" alt="Will Byers, Communications Coordinator">
+          <figcaption>Will Byers · Communications Coordinator</figcaption>
+        </figure>
+      </div>
     </section>
-
   </main>
 
-  
   <footer>
-        <p>© 2026 | Cangrejal Tours | Josue Maldonado</p>
-
-        <nav class="socialmedia" aria-label="Social media">
-            <a href="https://facebook.com/yourpage" aria-label="Facebook">
-                <img src="images/facebook_logo_.svg" alt="Facebook logo">
-            </a>
-            <a href="https://x.com/yourpage" aria-label="X (Twitter)">
-                <img src="images/twitter-logo.svg" alt="X (Twitter) logo">
-            </a>
-            <a href="https://instagram.com/yourpage" aria-label="Instagram">
-                <img src="images/instragram_logo.svg" alt="Instagram logo">
-            </a>
-        </nav>
-
-    </footer>
-
+    <p>© 2026
+      Cangrejal Tours
+      Josue Maldonado</p>
+    <nav class="socialmedia" aria-label="Social media">
+      <a href="https://facebook.com/yourpage" aria-label="Facebook">
+        <img src="images/facebook-logo.svg" alt="Facebook logo">
+      </a>
+      <a href="https://x.com/yourpage" aria-label="X (Twitter)">
+        <img src="images/twitter-logo.svg" alt="X (Twitter) logo">
+      </a>
+      <a href="https://instagram.com/yourpage" aria-label="Instagram">
+        <img src="images/instagram-logo.svg" alt="Instagram logo">
+      </a>
+    </nav>
+  </footer>
 </body>
+
 </html>
